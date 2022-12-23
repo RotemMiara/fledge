@@ -15,3 +15,4 @@ pyserial==3.4
 # keep this in sync with requirement.txt, as otherwise pytest-aiohttp always pulls the latest
 aiohttp==3.8.1
 yarl==1.7.2
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
